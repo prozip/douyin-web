@@ -2,17 +2,24 @@
   "name": "douyin-web-ui",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-in-viewport": "^1.0.0-alpha.16",
     "react-scripts": "4.0.3",
+    "react-spinners-css": "^2.0.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.3",
+    "tauri": "^0.14.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
+    "starts": "set HTTPS=true&&react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
